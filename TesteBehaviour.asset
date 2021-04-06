@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17af4df4ff387fc48993490ff014d231, type: 3}
+  m_Name: TesteBehaviour
+  m_EditorClassIdentifier: 
+  _name: Simple Enemy
+  AllNodeIds:
+  - 15e9347a-3216-4422-b502-fdddae480974
+  - 12d382b4-b6f4-46bd-bace-289ca139a6fe
+  - 91125885-f7b1-4687-9a0a-455f893fbde0
+  - 5c33d5d3-1c2d-46cc-9b89-ea0c4c49bc4a
+  RootNode:
+    _nodeId: 338a7a22-c7dc-4d05-b236-75adf95d5da8
+    _parentId: 
+    _behaviourNodeType: 3
+    InEditorWindow:
+      WindowRect:
+        serializedVersion: 2
+        x: 343.90002
+        y: 216.75
+        width: 250
+        height: 100
+      NodePosition: {x: 0, y: 0}
+      NodeSize: {x: 250, y: 100}
+      HeaderTexture: {fileID: 0}
+    _outputId: 15e9347a-3216-4422-b502-fdddae480974
+  AllConditionNodes:
+  - _nodeId: 15e9347a-3216-4422-b502-fdddae480974
+    _parentId: 338a7a22-c7dc-4d05-b236-75adf95d5da8
+    _behaviourNodeType: 0
+    InEditorWindow:
+      WindowRect:
+        serializedVersion: 2
+        x: 605.9
+        y: 272.75
+        width: 250
+        height: 100
+      NodePosition: {x: 490, y: 347}
+      NodeSize: {x: 250, y: 100}
+      HeaderTexture: {fileID: 0}
+    _conditionNodeParameter: {fileID: 11400000, guid: a13dbfd049861d845959d6542fd99187,
+      type: 2}
+    _falseChildId: 
+    _trueChildId: 91125885-f7b1-4687-9a0a-455f893fbde0
+  AllActionNodes:
+  - _nodeId: 12d382b4-b6f4-46bd-bace-289ca139a6fe
+    _parentId: 91125885-f7b1-4687-9a0a-455f893fbde0
+    _behaviourNodeType: 2
+    InEditorWindow:
+      WindowRect:
+        serializedVersion: 2
+        x: 867.9
+        y: 448.75
+        width: 250
+        height: 100
+      NodePosition: {x: 760, y: 416}
+      NodeSize: {x: 250, y: 100}
+      HeaderTexture: {fileID: 0}
+    _outputId: 
+    _actionNodeParameter: {fileID: 11400000, guid: 8cff5edf09d55634e9776b0d2eeffb64,
+      type: 2}
+  - _nodeId: 5c33d5d3-1c2d-46cc-9b89-ea0c4c49bc4a
+    _parentId: 91125885-f7b1-4687-9a0a-455f893fbde0
+    _behaviourNodeType: 2
+    InEditorWindow:
+      WindowRect:
+        serializedVersion: 2
+        x: 868
+        y: 550
+        width: 250
+        height: 100
+      NodePosition: {x: 766, y: 625}
+      NodeSize: {x: 250, y: 100}
+      HeaderTexture: {fileID: 0}
+    _outputId: 
+    _actionNodeParameter: {fileID: 11400000, guid: a07efc4227940264c9152c65e129ff0a,
+      type: 2}
+  AllSequenceNodes:
+  - _nodeId: 91125885-f7b1-4687-9a0a-455f893fbde0
+    _parentId: 15e9347a-3216-4422-b502-fdddae480974
+    _behaviourNodeType: 1
+    InEditorWindow:
+      WindowRect:
+        serializedVersion: 2
+        x: 606
+        y: 378
+        width: 250
+        height: 100
+      NodePosition: {x: 440, y: 558}
+      NodeSize: {x: 250, y: 100}
+      HeaderTexture: {fileID: 0}
+    _outputs:
+    - 12d382b4-b6f4-46bd-bace-289ca139a6fe
+    - 5c33d5d3-1c2d-46cc-9b89-ea0c4c49bc4a
